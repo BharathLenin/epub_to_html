@@ -22,7 +22,7 @@ https://pandoc.org/installing.html
 
 
     ```
-    pandoc testEPubFile.epub -f epub -t html -s -o testHtml.html
+    pandoc -s --toc -c template/pandoc.css -A template/footer.html test1.epub -o demo/example.html
     ```
 
 ## References
